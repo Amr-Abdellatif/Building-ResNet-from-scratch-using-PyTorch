@@ -1,7 +1,5 @@
 # This is implmentation of Resnet Architecture searched from original paper and pyTorch official documentation for resnet 
 
-## The main difference between my implementation and pyTorch official implementation is that in pytorch they included a basic block in which i build using regular convs.2d instead of building it using class,i thought it doesn't really need that as its so simple to just write it Sequentially 
-
 ## The expansion factor  
 The expansion factor in ResNets refers to the increase in the number of channels (also known as the width) in a convolutional block compared to the number of channels in its input. This expansion is controlled by a hyperparameter, often denoted as "expansion." It is usually associated with the Bottleneck blocks in ResNet architectures.
 
